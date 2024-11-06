@@ -1,0 +1,63 @@
+body{
+	font-family: 'Times New Roman', Times, serif;
+	background-color: bisque;
+	margin: 20px;
+	color: rgb(187, 116, 165);
+}
+h1{
+	color: rgba(159, 97, 218, 0.788);
+	text-align: center;
+	text-shadow: 2px 2px 5px rgb(99, 248, 186);
+}
+form{
+	background-color: rgba(178, 241, 189, 0.493);
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgb(241, 98, 98);
+	max-width: 600px;
+	margin: 20px auto;
+}
+fieldset{
+	border-radius: 20px;
+	padding: 3px;
+	box-shadow: rgb(132, 0, 255);
+	max-width: 600px;
+	margin-bottom: 20 auto;
+}
+legend{
+	font-weight: bold;
+	color: rgb(81, 81, 233);
+}
+label{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+input,textarea,select{
+	padding: 8px;
+	margin-bottom: 10px;
+	border: 1px solid gray;
+	border-radius: 4px;
+	background-color: rgb(252, 255, 203);
+	font-style: italic;
+}
+.inline-label{
+	display: inline;
+	margin-left: 5px;
+}
+button{
+	background-color: rgb(255, 255, 0);
+	color: blueviolet;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+button:hover{
+	background-color: rgb(255, 196, 0);
+}
+footer{
+	color: rgb(0, 0, 0);
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}

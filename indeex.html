@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Creacion de Formulario</title>
+</head>
+<body>
+	<header>
+		<h1>Formularios en html</h1>
+	</header>
+	<hr><br>
+
+	<form action="#">
+		<fieldset>
+			<legend>Datos personales</legend>
+			<label for="name">Nombre</label>
+			<input type="text" id="name" required><br><br>
+			<label for="email">Correo electronico</label>
+			<input type="email" id="email" required><br><br>
+			<label for="password">Contraseña</label>
+			<input type="password" id="password" required><br><br>
+			<label for="date">Fecha de nacimiento</label>
+			<input type="date" id="date" required><br><br>
+			<label for="Sexo masculino" class="inline-label">Masculino</label>
+			<input type="radio" id="sexo" name="Genero" value="Genero masculino" required>
+			<label for="Sexo femenino" class="inline-label">Femenino</label>
+			<input type="radio" id="sexo" name="Genero" value="Genero femenino" required>
+			<label for="otros" class="initial-label">Otros</label>
+			<input type="radio" id="sexo" name="Genero" value="Otro" required><br><br>
+
+		</fieldset>
+		<br><br>
+		<fieldset>
+			<legend>Datos del evento</legend>
+			<label for="evento">Nombre del evento</label>
+			<input type="text" id="evento" name="evento" required><br><br>
+			<label for="textarea">Comentarios</label>
+			<textarea name="Comentarios" id="textarea" rows="4" cols="50" placeholder="Escribe tus comentarios aqui"></textarea>
+			<br><br>
+			<label for="hour">Hora del evento</label><br>
+			<input type="time" id="hour" name="hour" required><br><br>
+			<label for="lugar">Lugar del evento</label><br>
+			<select name="lugar" id="lugar" required>
+				<option value="">Seleccione lugar</option>
+				<option value="auditorio">Auditorio principal</option>
+				<option value="conferencia">Salon de conferencia</option>
+				<option value="av">Aula virtual</option>
+				<option value="jardin">Jardin</option>
+			</select>
+			<br><br>
+			<label for="">Servicios adicionales</label>
+			<input type="checkbox" id="RSA1" name="servicios" value="si">
+			<label for="RSA1" class="inline-label">Si</label>
+			<input type="checkbox" id="RSA2" name="servicios" value="no">
+			<label for="RSA2" class="inline-label">No</label>
+			<br><br>
+
+		</fieldset>
+		<br>
+		<button type="submit">Enviar inscripción</button>
+	</form>
+	<footer>
+		<p>&copy; Todos los derechos reservados.</p>
+	</footer>
+</body>
+</html>
